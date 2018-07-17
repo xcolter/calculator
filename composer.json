@@ -1,0 +1,14 @@
+{
+    "name": "xcolter/calculator",
+    "description": "First laravel composer project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahsan Shabbir",
+            "email": "AhsanMShabbir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
