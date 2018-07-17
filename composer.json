@@ -9,6 +9,21 @@
             "email": "AhsanMShabbir@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    //"minimum-stability": "dev",
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xcolter\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Xcolter\\Calculator\\": "src/"
+        }
+    }
+
 }
